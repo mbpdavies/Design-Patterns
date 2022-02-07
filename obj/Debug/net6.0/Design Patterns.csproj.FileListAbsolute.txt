@@ -1,0 +1,15 @@
+/home/mbpdavies/Design Patterns/bin/Debug/net6.0/Design Patterns
+/home/mbpdavies/Design Patterns/bin/Debug/net6.0/Design Patterns.deps.json
+/home/mbpdavies/Design Patterns/bin/Debug/net6.0/Design Patterns.runtimeconfig.json
+/home/mbpdavies/Design Patterns/bin/Debug/net6.0/Design Patterns.dll
+/home/mbpdavies/Design Patterns/bin/Debug/net6.0/ref/Design Patterns.dll
+/home/mbpdavies/Design Patterns/bin/Debug/net6.0/Design Patterns.pdb
+/home/mbpdavies/Design Patterns/obj/Debug/net6.0/Design Patterns.csproj.AssemblyReference.cache
+/home/mbpdavies/Design Patterns/obj/Debug/net6.0/Design Patterns.GeneratedMSBuildEditorConfig.editorconfig
+/home/mbpdavies/Design Patterns/obj/Debug/net6.0/Design Patterns.AssemblyInfoInputs.cache
+/home/mbpdavies/Design Patterns/obj/Debug/net6.0/Design Patterns.AssemblyInfo.cs
+/home/mbpdavies/Design Patterns/obj/Debug/net6.0/Design Patterns.csproj.CoreCompileInputs.cache
+/home/mbpdavies/Design Patterns/obj/Debug/net6.0/Design Patterns.dll
+/home/mbpdavies/Design Patterns/obj/Debug/net6.0/ref/Design Patterns.dll
+/home/mbpdavies/Design Patterns/obj/Debug/net6.0/Design Patterns.pdb
+/home/mbpdavies/Design Patterns/obj/Debug/net6.0/Design Patterns.genruntimeconfig.cache
