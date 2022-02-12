@@ -1,17 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine(args.Length);
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+// See https://aka.ms/new-console-template for more information
 
-List<IDocument> documents = new List<IDocument>();
+// setup host for configuration and service injection
+IHost host = Host.CreateDefaultBuilder()
+                .ConfigureServices((_,services)=>{
+                    services.AddTransient<App>();
+                    services.AddTransient<IDocument,Invoice>();
+                })
+                .Build();
 
-documents.Add(new Invoice());
+// create instance of App from service container
+var app = ActivatorUtilities.CreateInstance<App>(host.Services);
 
-documents.Add(new ReminderLetter());
-
-foreach(IDocument document in documents)
-{
-    document.Print();
-    document.Email();
-}
-
-// test commit
+// call the run method (main application code)
+app.Run();
