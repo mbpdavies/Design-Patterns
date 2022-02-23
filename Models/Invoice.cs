@@ -2,7 +2,7 @@ public class Invoice : AbstractDocument
 {
     public Invoice() : base(DocumentType.Invoice)
     {
-
+        
     }
 
     protected override IRecipient GetRecipientDetails()

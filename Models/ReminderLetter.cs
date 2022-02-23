@@ -12,7 +12,7 @@ public class ReminderLetter : AbstractDocument
     }
 
     public override void Email()
-    {
+    {   
         Console.WriteLine($"Sending reminder letter by email to {Recipient.Email}...");
     }
 

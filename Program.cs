@@ -4,10 +4,13 @@ using Microsoft.Extensions.Hosting;
 
 // setup host for configuration and service injection
 IHost host = Host.CreateDefaultBuilder()
-                .ConfigureServices((_,services)=>{
-                    services.AddTransient<App>();
-                    services.AddTransient<IDocument,Invoice>();
-                })
+                .ConfigureServices((_,services) => 
+                    {
+                        // setup entry point class
+                        services.AddTransient<App>();
+                        // setup additional services
+                        services.AddTransient<IEmailService,EmailService>();
+                    })
                 .Build();
 
 // create instance of App from service container
